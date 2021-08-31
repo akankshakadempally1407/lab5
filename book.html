@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 19px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+</style>
+<body>
+
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  
+ <a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+   <a href="aboutus.html"><i class="fa fa-sign-in"></i> aboutus</a> 
+  <a href="signup1.html"><i class="fa fa-sign-in"></i> signin</a> 
+  <a href="servicesf.html"><i class="fa fa-server"></i> services</a> 
+  <a href="booking.html"><i class="fa fa-bookmark"></i> booking</a>
+    <a href="feedback.html"><i class="fa fa-comments-o"></i> feedback</a>
+     <a href="gallery.html"><i class="fa fa-comments-o"></i>MORE</a>
+</div>
+
+
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+background:url("wa.jpg") center no-repeat;
+
+}
+
+h1
+{
+font-size:44px;
+color:darkred;
+}input
+{
+border-radius:10px;
+width:250px;
+height:35px;
+text-indent:5px;
+}
+input:focus
+{
+outine:none;
+
+}
+feildset
+{
+width:50%;
+height:690px;
+backgrond-color:#77BFC7S;
+border-radius:5px;
+outline:none;
+}
+table{
+font-size:22px;
+}
+td
+{
+line-height:50px;
+}
+input[type="submit"]
+{
+background-color:darkgreen;
+width:120px;
+height:30px;
+
+}
+input[type="submit"]:hover
+{
+background-color:darkgreen;
+}
+input[type="reset"]
+{
+background-color:darkgreen;
+width:120px;
+height:30px;
+
+}
+input[type="reset"]:hover
+{
+background-color:darkgreen;
+}
+
+</style>
+
+<center>
+<div class="book">
+<form method = "get" action ="./Booking5" name="f1">
+<fieldset>
+<table>
+<h1>BOOKING</h1>
+<tr>
+<th>USERNAME</th>
+<td>:</td>
+<td><input type="text" class="name1" name="username" placeholder="enter your name"></td>
+</tr>
+<tr>
+<th>EMAIL-ID</th>
+<td>:</td>
+<td><input type="email" class="email" name="email1" placeholder="enter your email"></td>
+</tr>
+<tr>
+<th>CONTACT</th>
+<td>:</td>
+<td><input type="number" class="number" name="number1" placeholder="enter your number"></td>
+</tr>
+<tr>
+<th>products</th>
+<td>:</td>
+<td>
+<select name="laptop">
+<option>mac book</option><BR>
+<option>chromebook</option><BR>
+<option>lenovo</option><BR>
+
+</td>
+</select>
+<td>
+<select name="cpu">
+<option>cpu1</option><BR>
+<option>cpu2</option><BR>
+<option>cpu3</option><BR>
+
+</select>
+<td>
+<select name="speaker">
+<option>speaker1</option><BR>
+<option>speaker1</option><BR>
+<option>speaker1</option><BR>
+<
+</td>
+</select>
+<td>
+<select name="motherboard">
+<option>motherboard1 </option><BR>
+<option>motherboard2</option><BR>
+<option>motherboard3</option><BR>
+
+</td>
+</select>
+
+
+<tr>
+<th>DATE</th>
+<td>:</td>
+<td><input type="date" class="date" name="date1" placeholder="DD/MM/YY" ></td>
+</tr>
+
+<tr>
+<th>AMOUNT</th>
+<td></td>
+<td><input type="text" class="amount" name="amount1" placeholder=" press enter auto calculate"></td>
+
+</table>
+
+  <a href="payment.html">  <button class="btn">Book</button></a>
+
+
+
+
+</center>
+</fieldset>
+</form>
+</body>
+</html>
